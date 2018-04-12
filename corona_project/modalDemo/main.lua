@@ -16,7 +16,8 @@ local html = [[
 
 modal.create({
   width = 600,
-  height = 200,
+  height = 130,
+  padding = 6,
   borderRadius = 4,
   content = html
 })
@@ -38,20 +39,19 @@ local function newContent()
   modal.setContent(html)
 end
 
-local toggleBtn = widget.newButton({
-  label = "Toggle",
-  x = display.contentCenterX,
-  y = display.contentCenterY + 100,
-  onRelease = modal.destroy
-})
-
 local changeContentBtn = widget.newButton({
   label = "Content",
   x = display.contentCenterX,
-  y = display.contentCenterY + 60,
+  y = display.contentCenterY + 40,
   onRelease = newContent
 })
 
+local toggleBtn = widget.newButton({
+  label = "Toggle",
+  x = display.contentCenterX,
+  y = display.contentCenterY + 80,
+  onRelease = modal.toggle
+})
 
 local function doResize()
   modal.resize(800, 400)
@@ -60,7 +60,7 @@ end
 local resizeBtn = widget.newButton({
   label = "Resize",
   x = display.contentCenterX,
-  y = display.contentCenterY + 20,
+  y = display.contentCenterY + 120,
   onRelease = doResize
 })
 

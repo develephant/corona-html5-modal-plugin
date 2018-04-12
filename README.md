@@ -54,7 +54,7 @@ __Config Table__
 |`border`|Enabled borders on the modal.|`false`|__N__|
 |`borderSize`|Set the border size in pixels. `border` must be enabled.|none|__N__|
 |`borderColor`|Set the border color as hex or named color value. `border` must be enabled.|none|__N__|
-|`radius`|The modal corner radius in pixels.|none|__N__|
+|`radius`|The modal corner radius in pixels. Creates rounded corners.|none|__N__|
 |`shadow`|Enable a drop shadow for the modal.|`false`|__N__|
 
 __Example__
