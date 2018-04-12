@@ -4,6 +4,12 @@ ___A Modal Window Plugin for Corona HTML5 Games and Apps.___
 
 👷 Built with __[Corona HTML5 Node Kit](https://develephant.github.io/corona-html5-node-kit-docs/)__.
 
+## Browser Tests
+
+|![chrome](icons/chrome.png)|![edge](icons/ie.png)|![firefox](icons/firefox.png)|![safari](icons/safari.png)|![opera](icons/opera.png)|
+|---------------------------|-------------------|-----------------------------|---------------------------|-------------------------|
+|![pass](icons/pass.png)|![pass](icons/pass.png)|![pass](icons/pass.png)|![pass](icons/pass.png)|![pass](icons/pass.png)|
+
 ## Usage
 
 ### Install
