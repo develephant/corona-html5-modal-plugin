@@ -1,6 +1,6 @@
 # Corona HTML5 Modal Plugin
 
-A modal window for Corona HTML5 games and apps.
+___A Modal Window Plugin for Corona HTML5 Games and Apps.___
 
 👷 Built with __[Corona HTML5 Node Kit](https://develephant.github.io/corona-html5-node-kit-docs/)__.
 
