@@ -89,6 +89,13 @@ Resize the modal dynamically.
 modal.resize(width[, height])
 ```
 
+__Arguments__
+
+|Key|Description|Default|Required|
+|---|-----------|-------|--------|
+|`content`|The HTML content to place in the modal.|`''`|__Y__|
+
+
 ### setContent
 
 Replace the HTML content in the modal dynamically.
@@ -96,6 +103,12 @@ Replace the HTML content in the modal dynamically.
 ```lua
 modal.setContent(html_content)
 ```
+
+__Arguments__
+
+|Key|Description|Default|Required|
+|---|-----------|-------|--------|
+|`width`|The modal width in pixels.|728|__N__|
 
 ### destroy
 
