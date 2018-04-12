@@ -128,7 +128,7 @@ __Arguments__
 
 |Key|Description|Default|Required|
 |---|-----------|-------|--------|
-|`content`|The HTML content to place in the modal.|`''`|__Y__|
+|`html_content`|The HTML content to place in the modal.|`''`|__Y__|
 
 ### destroy
 
@@ -145,7 +145,7 @@ modal.destroy()
 You can use images that are stored in your Corona HTML5 output directory in the modal content.
 
 ```
-html5_output/
+output_html5/
   image.png
   ...
 ```
@@ -196,3 +196,7 @@ end
 
 modal.addEventListener('modal', onModalEvent)
 ```
+
+---
+
+(c)2018 C. Byerley ([develephant](https://develephant.com))
