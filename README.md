@@ -8,7 +8,7 @@ ___A Modal Window Plugin for Corona HTML5 Games and Apps.___
 
 ### Install
 
-Download the plugin archive by [clicking here](https://github.com/develephant/corona-html5-modal-plugin/archive/master.zip).
+Download the plugin archive by __[clicking here](https://github.com/develephant/corona-html5-modal-plugin/archive/master.zip)__.
 
 Expand teh archive, and move the __output_plugin/modal_js.js__ and __output_plugin/modal.lua__ files to your ___root___ project directory.
 
