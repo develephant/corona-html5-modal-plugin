@@ -29,8 +29,8 @@ __Config Table__
 |height|desc|90|__N__|
 |top|desc|160|__N__|
 |padding|desc|0|__N__|
-|bgColor|desc|`'white'`|__N__|
-|color|desc|`'black'`|__N__|
+|bgColor|desc|`'#ffffff'`|__N__|
+|color|desc|`'#000000'`|__N__|
 |border|desc|`false`|__N__|
 |borderSize|desc|none|__N__|
 |borderColor|desc|none|__N__|
