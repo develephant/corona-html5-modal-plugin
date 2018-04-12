@@ -121,7 +121,7 @@ class ModalPlugin {
 
   setContent(html_content) {
     if (this.modal) {
-      this.modal.innerHTML = html_content
+      this.modal.innerHTML = html_content || ''
     }
   }
 

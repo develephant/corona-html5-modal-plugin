@@ -120,6 +120,32 @@ modal.destroy()
 
 ## Modal Content
 
+### Images
+
+You can use images that are store in your Corona HTML5 output dirctory in the modal content.
+
+```
+html5_output/
+  image.png
+  ...
+```
+
+__Example__
+
+```lua
+local html = [[
+  <div>
+    <img src="image.png" />
+  </div>
+]]
+
+modal.create({
+  content = html
+})
+
+modal.show()
+```
+
 ### Closing
 
 To hide the modal window from within the HTML content, use the javascript method `modal.hide()`
@@ -128,4 +154,25 @@ __Example__
 
 ```html
 <button onclick="modal.hide()">Close</button>
+```
+
+## Events
+
+You can set up an event listner you listen for modal events. The following types are supported:
+
+ - `hide`
+ - `show`
+ - `resize`
+ - `destroy`
+
+__Example__
+
+```lua
+local function onModalEvent(e)
+  if e.type == 'resize' then
+    print('modal was resized')
+  end
+end
+
+modal.addEventListener('modal', onModalEvent)
 ```
