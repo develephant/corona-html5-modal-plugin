@@ -49,7 +49,7 @@ class ModalPlugin {
       ele.style.borderColor = config.borderColor
     }
 
-    if (config.borderRadius) {
+    if (config.radius) {
       ele.style.borderRadius = `${config.borderRadius}px`
       ele.style.webkitBorderRadius = `${config.borderRadius}px`
     }
