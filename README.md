@@ -122,7 +122,7 @@ modal.destroy()
 
 ### Images
 
-You can use images that are store in your Corona HTML5 output dirctory in the modal content.
+You can use images that are stored in your Corona HTML5 output dirctory in the modal content.
 
 ```
 html5_output/
@@ -148,7 +148,7 @@ modal.show()
 
 ### Closing
 
-To hide the modal window from within the HTML content, use the javascript method `modal.hide()`
+To hide the modal window from within the HTML content, use the javascript method `modal.hide()` within an `onclick` event.
 
 __Example__
 
@@ -158,7 +158,7 @@ __Example__
 
 ## Events
 
-You can set up an event listner you listen for modal events. The following types are supported:
+You can set up an event listner to listen for modal events. The following event types are supported:
 
  - `hide`
  - `show`
