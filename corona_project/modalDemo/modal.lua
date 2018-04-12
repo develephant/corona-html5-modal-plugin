@@ -16,7 +16,15 @@ else
 	local function defaultFunction()
 		print( "WARNING: The '" .. lib.name .. "' library is not available on this platform." )
   end
-
+  
+  lib.create = defaultFunction
+  lib.destroy = defaultFunction
+  lib.show = defaultFunction
+  lib.hide = defaultFunction
+  lib.toggle = defaultFunction
+  lib.resize = defaultFunction
+  lib.setContent = defaultFunction
+  lib.addEventListener = defaultFunction
 end
 
 return lib
