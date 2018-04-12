@@ -86,15 +86,19 @@ modal.toggle()
 Resize the modal dynamically.
 
 ```lua
-modal.resize(width[, height])
+modal.resize(width, height)
 ```
 
 __Arguments__
 
 |Key|Description|Default|Required|
 |---|-----------|-------|--------|
-|`content`|The HTML content to place in the modal.|`''`|__Y__|
+|`width`|The modal width in pixels.|current width|__Y__|
+|`height`|The modal height in pixels.|current height|__Y__|
 
+__Notes__
+
+If you only want to change one of the dimensions, pass `nil` for the other.
 
 ### setContent
 
@@ -108,7 +112,7 @@ __Arguments__
 
 |Key|Description|Default|Required|
 |---|-----------|-------|--------|
-|`width`|The modal width in pixels.|728|__N__|
+|`content`|The HTML content to place in the modal.|`''`|__Y__|
 
 ### destroy
 
@@ -122,7 +126,7 @@ modal.destroy()
 
 ### Images
 
-You can use images that are stored in your Corona HTML5 output dirctory in the modal content.
+You can use images that are stored in your Corona HTML5 output directory in the modal content.
 
 ```
 html5_output/
