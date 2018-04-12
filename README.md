@@ -2,6 +2,8 @@
 
 A modal window for Corona HTML5 games and apps.
 
+👷 Built with __[Corona HTML5 Node Kit](https://develephant.github.io/corona-html5-node-kit-docs/)__.
+
 ## Usage
 
 ### Install
