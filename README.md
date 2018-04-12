@@ -8,6 +8,20 @@ A modal window for Corona HTML5 games and apps.
 
 ### Install
 
+Download the plugin archive by [clicking here](https://github.com/develephant/corona-html5-modal-plugin/archive/master.zip).
+
+Expand teh archive, and move the __output_plugin/modal_js.js__ and __output_plugin/modal.lua__ files to your ___root___ project directory.
+
+Your project tree should look like:
+
+```
+project/
+  modal_js.js
+  modal.lua
+  main.lua
+  ...
+```
+
 ### Require
 
 ```lua
