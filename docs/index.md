@@ -184,7 +184,7 @@ __Example__
 
 ## Events
 
-You can set up an event listner to listen for modal events. The following event types are supported:
+You can set up an event listener to listen for modal events. The following event types are supported:
 
  - `hide`
  - `show`
