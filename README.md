@@ -16,7 +16,7 @@ ___A Modal Window Plugin for Corona HTML5 Games and Apps.___
 
 Download the plugin archive by __[clicking here](https://s3.amazonaws.com/develephant-plugins/modal/modalPlugin.zip)__.
 
-Expand the archive, and move the __output_plugin/modal_js.js__ and __output_plugin/modal.lua__ files to your ___root___ project directory.
+Expand the archive, and move the __modal_js.js__ and __modal.lua__ files to your ___root___ project directory.
 
 Your project tree should look like:
 
