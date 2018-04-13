@@ -203,6 +203,10 @@ end
 modal.addEventListener('modal', onModalEvent)
 ```
 
+## Demo
+
+You can download an HTML5 demo build by __[clicking here](https://s3.amazonaws.com/develephant-plugins/modal/modalDemo.zip)__.
+
 ---
 
 &copy;2018 C. Byerley ([develephant](https://develephant.com))
