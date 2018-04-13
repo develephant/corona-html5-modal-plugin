@@ -205,4 +205,4 @@ modal.addEventListener('modal', onModalEvent)
 
 ---
 
-(c)2018 C. Byerley ([develephant](https://develephant.com))
+&copy;2018 C. Byerley ([develephant](https://develephant.com))
