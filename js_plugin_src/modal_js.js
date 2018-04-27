@@ -3,6 +3,8 @@
 // (c)2018 C. Byerley
 //-----------------------------------------------------------------------------
 class ModalPlugin {
+  constructor() { }
+
   create(modal_config) {
 
     if (this.modal) {
@@ -77,9 +79,21 @@ class ModalPlugin {
     return true
   }
 
+  addEventListener(listener) {
+    this.dispatcher = LuaCreateFunction(listener)
+  }
+
+  removeEventListener() {
+    LuaReleaseFunction(this.dispatcher)
+  }
+
+  dispatchEvent(event) {
+    this.dispatcher(event)
+  }
+
   toggle() {
     if (this.modal) {
-      if (this.toggleHidden === true) {
+      if (this.toggleHidden == true) {
         this.show()
       } else {
         this.hide()

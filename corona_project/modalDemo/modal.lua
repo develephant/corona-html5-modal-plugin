@@ -25,6 +25,7 @@ else
   lib.resize = defaultFunction
   lib.setContent = defaultFunction
   lib.addEventListener = defaultFunction
+  lib.removeEventListener = defaultFunction
 end
 
 return lib

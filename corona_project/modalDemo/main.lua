@@ -6,9 +6,7 @@ local widget = require("widget")
 local modal = require("modal")
 
 local html = [[
-  <div>
-    <img src="side-logo.png" />
-  </div>
+  <h1>Modal Time!</h1>
   <div>
     <button onclick="modal.hide()">Close</button>
   </div>
@@ -22,7 +20,7 @@ modal.create({
   content = html
 })
 
-modal.addEventListener('modal', function(e)
+modal.addEventListener(function(e)
   print(e.type)
 end)
 
@@ -33,6 +31,9 @@ local function newContent()
     <div>
       <h3>Hello</h3>
       <p>I'm all up in here!</p>
+    </div>
+    <div>
+      <button onclick="modal.hide()">Close</button>
     </div>
   ]]
 
@@ -46,11 +47,15 @@ local changeContentBtn = widget.newButton({
   onRelease = newContent
 })
 
+local function toggleModal()
+  modal.toggle()
+end
+
 local toggleBtn = widget.newButton({
   label = "Toggle",
   x = display.contentCenterX,
   y = display.contentCenterY + 80,
-  onRelease = modal.toggle
+  onRelease = toggleModal
 })
 
 local function doResize()
