@@ -184,7 +184,7 @@ __Example__
 
 ## Events
 
-You can set up an event listner to listen for modal events. The following event types are supported:
+You can set up an event listener to listen for modal events. The following event types are supported:
 
  - `hide`
  - `show`
@@ -203,6 +203,10 @@ end
 modal.addEventListener('modal', onModalEvent)
 ```
 
+## Demo
+
+You can download a demo project by __[clicking here](https://s3.amazonaws.com/develephant-plugins/modal/ModalDemo.zip)__.
+
 ---
 
-(c)2018 C. Byerley ([develephant](https://develephant.com))
+&copy;2018 C. Byerley ([develephant](https://develephant.com))
